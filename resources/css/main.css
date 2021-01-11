@@ -1,7 +1,13 @@
-* {
+*,
+*:before,
+*:after {
   font-family: georgia, "times new roman", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+/** Typography **/
 h1 {
   font-size: 40px;
   font-style: italic;
@@ -9,10 +15,24 @@ h1 {
   color: #121212;
 }
 
-/* img {
+p {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+
+/** Multimedia **/
+img {
   max-width: 100%;
 }
 
+
+/** Block elements **/
+main {
+  padding: 0 1.5em;
+}
+
 figure {
-  width: 1000px;
-} */
+  width: 70%;
+}
