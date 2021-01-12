@@ -20,14 +20,17 @@ img {
   max-width: 100%;
 }
 
-/** Block elements **/
-main {
-  /* padding: 0 1.5em; */
-
+/** Components **/
+.image-caption {
+  color: #666666;
+  font-size: 15px;
+  width: 70%;
+  margin-top: 8px;
 }
 
-figure {
-  width: 70%;
+.wrap {
+  width: 600px;
+  margin: 0 auto;
 }
 
 /** Button **/
@@ -122,10 +125,14 @@ figure {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  width: 600px;
   margin: 0 auto 20px auto;
 }
 
+.article-header-img {
+  width: 100%;
+}
+
+/** Sharing Toolbar **/
 .social-toolbar {
   width: 600px;
   margin: 0 auto;
@@ -165,6 +172,22 @@ figure {
 .non-social:hover,
 .non-social:focus {
   opacity: .2;
+}
+
+.comments-btn {
+  background: none;
+  border: 1px solid #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  padding: 5px 8px;
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+}
+
+.comments-btn:hover,
+.comments-btn:focus {
+  border-color: #EEEEEE;
 }
 
 /** Index **/
