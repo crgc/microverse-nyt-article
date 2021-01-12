@@ -36,6 +36,80 @@ figure {
   width: 70%;
 }
 
+/** Button **/
+.topbar-button {
+  background: #567B94;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: helvetica,arial,sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  outline: 0;
+  border: 0;
+  padding: 11px 12px 10px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+.topbar-button:hover,
+.topbar-button:focus {
+  background: rgb(50, 104, 145);
+}
+
+.topbar-settings {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.topbar-caret {
+  width: 8px;
+}
+
+/** Topbar **/
+.topbar {
+  border-bottom: 1px solid #E2E2E2;
+  padding: 6px 1.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-icon {
+  width: 15px;
+  border: none;
+  background: none;
+  padding: 8px;
+  margin-right: 8px;
+  box-sizing: content-box;
+  border-radius: 3px;
+}
+.topbar-icon:hover,
+.topbar-icon:focus {
+  background: #F7F7F7;
+}
+
+.topbar-item {
+  font-family: helvetica,arial,sans-serif;
+  display: inline-block;
+}
+
+.topbar-topic {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.topbar-topic:hover,
+.topbar-topic:focus {
+  text-decoration: underline;
+}
+
+.topbar-logo {
+  width: 195px;
+}
+
 /** Index **/
 .site-index {
 
