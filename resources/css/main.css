@@ -361,6 +361,13 @@ img {
   color: black;
 }
 
+.inflation-container-section-first-phrase {
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .05em;
+}
+
 .inflation-footer::before {
   margin-bottom: 13px;
   background-color: black;
@@ -376,18 +383,11 @@ img {
   font-size: 13px;
 }
 
-.first-phrase {
-  font-family: inherit;
-  font-size: 11px;
-  font-weight: bold;
-  letter-spacing: .05em;
-}
-
 /** Site index **/
 #site-index {
   font-family: Arial, Helvetica, sans-serif;
   width: 1200px;
-  margin: 90px auto 20px;
+  margin: 90px auto 10px;
   border-top: 1px solid #E2E2E2;
 }
 
@@ -479,4 +479,28 @@ img {
 
 .border-bottom {
   border-bottom: 1px solid #E2E2E2;
+}
+
+#site-footer {
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  border-top: 1px solid #E2E2E2;
+  margin-bottom: 40px;
+}
+
+.footer-nav {
+  padding-top: 8px;
+}
+
+.footer-nav-item {
+  font-family: helvetica,arial,sans-serif;
+  color: rgb(102, 102, 102);
+  font-size: 11px;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-nav-item:hover {
+  text-decoration: underline;
 }
