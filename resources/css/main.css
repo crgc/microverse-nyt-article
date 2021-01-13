@@ -1,18 +1,30 @@
 *,
 *::before,
 *::after {
-  font-family: georgia, "times new roman", serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 /** Typography **/
+main h2 {
+  font-family: georgia, serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
 p {
   font-size: 20px;
   font-weight: normal;
+  font-family: georgia, "times new roman", serif;
   margin-bottom: 20px;
   line-height: 1.5em;
+}
+
+a {
+  font-family: inherit;
 }
 
 /** Multimedia **/
@@ -26,6 +38,12 @@ img {
   font-size: 15px;
   width: 70%;
   margin-top: 8px;
+}
+
+.image-author {
+  color: #888888;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 .wrap {
@@ -115,6 +133,21 @@ img {
   top: 5px;
 }
 
+/** Main section **/
+.section-flex {
+  display: flex;
+}
+
+.section-aside {
+  padding-top: 600px;
+  padding-left: 90px;
+}
+
+.section-content {
+  width: 90%;
+  padding-left: 300px;
+}
+
 /* Main content */
 #article-content {
   width: 1200px;
@@ -122,12 +155,13 @@ img {
 }
 
 .article-header {
-  margin-top: 60px;
+  margin-top: 120px;
   font-family: Times;
 }
 
 .article-title {
   font-size: 30px;
+  font-family: georgia, "times new roman", serif;
   font-style: italic;
   font-weight: 700;
   color: #121212;
@@ -136,7 +170,63 @@ img {
 
 .article-header-img {
   width: 100%;
+  margin-bottom: 40px;
 }
+
+.author {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.author-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.published_date {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/** Editor's picks **/
+.editors-picks-title {
+  font-size: 14px;
+  font-family: Arial, helvetica, sans-serif;
+  border-bottom: 1px solid #E2E2E2;
+  display: block;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+}
+
+.editors-pick {
+  clear: both;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.editors-pick-img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  width: 75px;
+  height: 75px;
+}
+.editors-pick-title {
+  display: block;
+  color: #333333;
+  font-size: 13px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.editors-pick-title:hover,
+.editors-pick-title:focus {
+  text-decoration: underline;
+}
+
 
 /** Sharing Toolbar **/
 .social-toolbar {
