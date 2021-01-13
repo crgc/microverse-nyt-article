@@ -131,7 +131,7 @@ img {
 }
 
 .topbar-item {
-  font-family: helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
   display: inline-block;
 }
 
@@ -327,7 +327,7 @@ img {
 .inflation-header-subtitle {
   color: rgb(102, 102, 102);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: normal;
+  font-style: normal;
   font-size: 14px;
   font-weight: 400;
 }
