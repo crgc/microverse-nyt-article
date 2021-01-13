@@ -22,13 +22,13 @@ A clone of a New York Times article page.
 
 - GitHub: [@chuckbuckethead](https://github.com/chuckbuckethead)
 - Twitter: [@aclerkofpomier](https://twitter.com/aclerkofpomier)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chuckbuckethead/)
+- LinkedIn: [Carlos González](https://www.linkedin.com/in/chuckbuckethead/)
 
 👤 **Carlos Castillo**
 
 - GitHub: [@ey-charles](https://github.com/ey-charles)
 - Twitter: [@crloscstillo](https://twitter.com/crloscstillo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/carlos-castillo-70430711a/)
+- LinkedIn: [Carlos Castillo](https://www.linkedin.com/in/carlos-castillo-70430711a/)
 
 ## Show your support
 
