@@ -167,7 +167,7 @@ img {
 }
 
 /* Main content */
-#article-content {
+.article-content {
   width: 1200px;
   margin: 0 auto;
 }
@@ -384,14 +384,14 @@ img {
 }
 
 /** Site index **/
-#site-index {
+.site-index {
   font-family: Arial, Helvetica, sans-serif;
   width: 1200px;
   margin: 90px auto 10px;
   border-top: 1px solid #E2E2E2;
 }
 
-#site-index::before {
+.site-index::before {
   content: "";
   height: 2px;
   background-color: #E2E2E2;
@@ -481,7 +481,7 @@ img {
   border-bottom: 1px solid #E2E2E2;
 }
 
-#site-footer {
+.site-footer {
   text-align: center;
   margin: 0 auto;
   width: 1200px;
