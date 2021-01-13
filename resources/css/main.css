@@ -34,16 +34,24 @@ img {
 
 /** Components **/
 .image-caption {
-  color: #666666;
+  color: rgb(102, 102, 102);
+  font-family: georgia, "times new roman", serif;
   font-size: 15px;
+  font-weight: 400;
   width: 70%;
   margin-top: 8px;
+  line-height: 20px;
 }
 
 .image-author {
-  color: #888888;
+  color: rgb(136, 136, 136);
+  font-family: georgia, "times new roman", serif;
+  font-size: 13px;
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 2px;
+  letter-spacing: 0.13px;
+  font-weight: 400;
+  vertical-align: baseline;
 }
 
 .wrap {
@@ -299,12 +307,63 @@ img {
   color: blue;
 }
 
+/** Inflation **/
+.inflation {
+  width: 945px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.inflation-header-title {
+  font-family: georgia, "times new roman", serif;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.inflation-header-subtitle {
+  color: rgb(102, 102, 102);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.inflation-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.inflation-container-section {
+  width: 25%;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
 .inflation-container-section-text {
   font-family: arial, helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 300;
+  font-style: normal;
   line-height: 17px;
   color: black;
+}
+
+.inflation-footer::before {
+  margin-bottom: 13px;
+  background-color: black;
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  content: "";
+}
+
+.inflation-footer-authors {
+  color: rgb(51, 51, 51)
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
 }
 
 .first-phrase {
