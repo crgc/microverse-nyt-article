@@ -437,7 +437,7 @@ img {
 
 .site-index-section-list--highlight {
   list-style: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .site-index-section-list-item {
@@ -450,10 +450,8 @@ img {
   text-decoration: underline;
 }
 
-.site-index-section-list--highlightsite-index-section-list-item {
+.site-index-section-list--highlight .site-index-section-list-item {
   font-weight: 700;
-  font-size: 16px;
-  margin-bottom: 5px;
 }
 
 .site-index-section-list--small {
