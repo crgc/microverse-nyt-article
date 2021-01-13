@@ -65,11 +65,17 @@ img {
 
 /** Topbar **/
 .topbar {
+  background: white;
   border-bottom: 1px solid #E2E2E2;
   padding: 6px 1.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .topbar-icon {
