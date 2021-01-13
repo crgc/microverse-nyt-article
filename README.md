@@ -27,7 +27,7 @@ A clone of a New York Times article page.
 👤 **Carlos Castillo**
 
 - GitHub: [@ey-charles](https://github.com/ey-charles)
-- Twitter: [@twitterhandle](https://twitter.com/crloscstillo)
+- Twitter: [@crloscstillo](https://twitter.com/crloscstillo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/carlos-castillo-70430711a/)
 
 ## Show your support
