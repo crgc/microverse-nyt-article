@@ -7,6 +7,18 @@
 }
 
 /** Typography **/
+.font-nyt {
+  font-family: georgia, serif;
+}
+
+.font-sans{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-small {
+  font-size: 1em;
+}
+
 main h2 {
   font-family: georgia, serif;
   font-size: 20px;
@@ -495,4 +507,62 @@ img {
 
 .footer-nav-item:hover {
   text-decoration: underline;
+}
+
+/** Comments **/
+.commentbox {
+  margin-top: 90px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background: #eee;
+  border-radius: 3px;
+}
+
+.commentbox h2 {
+  margin-bottom: 12px;
+}
+
+.commentbox-field {
+  margin-top: 15px;
+}
+
+.commentbox-text {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.commentbox-text:focus {
+  border: 1px solid blue;
+  outline: none;
+}
+
+.commentbox label {
+  font-family: sans-serif;
+  display: block;
+  margin: 8px 0;
+}
+
+.commentbox-btn {
+  background: #567B94;  
+  color: white;
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+}
+
+.commentbox-btn:hover {
+  background: black;
+}
+
+.commentbox-nl label {
+  display: inline-block;
+  font-size: 0.85em;
+  padding-left: 5px;
+}
+
+label.inline-block {
+  display: inline-block;
+  margin-right: 15px;
 }

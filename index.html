@@ -322,6 +322,43 @@
     </section>
   </main>
 
+  <div class="commentbox wrap">
+    <h2 class="font-sans">Share your thoughts!</h2>
+    <p class="font-nyt font-small">Let's start a conversation. What are your thoughts on the topic?</p>
+
+    <form action="/request" method="post" class="commentbox-form">
+      <label for="comment" class="font-sans">Your message:</label>
+      <textarea name="" id="comment" cols="30" rows="10" class="commentbox-text font-sans" placeholder="Type your comment here…" required></textarea>
+
+      <label for="name">Your name:</label>
+      <input type="text" id="name" class="commentbox-text" required>
+
+      <label for="email">Your email:</label>
+      <input type="email" id="email" class="commentbox-text" required placeholder="eg. your@email.com">
+
+      <div class="commentbox-field">
+        <p class="font-sans">What is your overall opinion about this article?</p>
+        <input type="radio" id="rating1" name="rating" value="5">
+        <label for="rating1" class="inline-block">Positive</label>
+
+        <input type="radio" id="rating2" name="rating" value="3">
+        <label for="rating2" class="inline-block">Negative</label>
+
+        <input type="radio" id="rating3" name="rating" value="1">
+        <label for="rating3" class="inline-block">Neutral</label>
+      </div>
+
+      <div class="commentbox-field">
+        <input type="submit" class="commentbox-btn" value="Send">
+        <div class="commentbox-nl">
+          <input type="checkbox" name="newsletter" id="newsletter">
+          <label for="newsletter">I want to subscribe to the newsletter</label>
+        </div>
+      </div>
+    </form>
+
+  </div>
+
   <div class="site-index">
     <div class="site-index-header">
       <a href="" class="site-index-logo">
